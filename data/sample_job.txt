@@ -1,0 +1,11 @@
+Job Title: Python Developer
+
+Responsibilities:
+- Develop AI-powered applications.
+- Work with NLP and ML models.
+- Collaborate with cross-functional teams.
+
+Requirements:
+- Strong Python skills.
+- Experience with NLP libraries (spaCy, NLTK).
+- Knowledge of ML frameworks (scikit-learn, TensorFlow, PyTorch).
