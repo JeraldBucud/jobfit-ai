@@ -1,0 +1,11 @@
+
+---
+
+## 🔹 4. `requirements.txt`
+```txt
+streamlit
+scikit-learn
+numpy
+pandas
+nltk
+spacy
