@@ -1,4 +1,7 @@
-# JobFit AI
+# JobFit AI 🧑‍💻🤖
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-UI%20MVP-ff4b4b.svg)](https://streamlit.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 JobFit AI is an AI-powered application that helps job seekers evaluate and improve their resumes for specific job postings.  
 The app analyzes a CV and a job description, identifies relevant skills, computes a match score, and suggests improvements such as missing keywords or tailored bullet points.  
@@ -28,19 +31,16 @@ This project is being developed as a **portfolio project** to demonstrate skills
 
 ---
 
-## 📂 Project Structure (planned)
-
 ## 📂 Project Structure
-
 ```bash
 jobfit-ai/
 │
 ├── app/                         # Main application package
-│   ├── pipeline/                 # NLP + scoring logic
+│   ├── pipeline/                # NLP + scoring logic
 │   │   ├── __init__.py
 │   │   ├── text_cleaner.py       # text normalization, tokenization, stopword removal
 │   │   ├── keyword_extractor.py  # YAKE/RAKE keyword extraction
-│   │   ├── scorer.py             # match score calculation
+│   │   └── scorer.py             # match score calculation
 │   │
 │   └── ui/                       # Frontend code
 │       ├── __init__.py
@@ -61,6 +61,7 @@ jobfit-ai/
 ├── README.md                     # Project overview
 ├── requirements.txt              # Python dependencies
 └── setup.cfg / pyproject.toml    # (Optional) Config for linting/packaging
+
 
 ```
 
