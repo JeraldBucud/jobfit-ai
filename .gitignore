@@ -5,6 +5,8 @@ __pycache__/
 *.pyd
 *.egg-info/
 *.egg
+
+# Virtual environments
 .env
 .venv
 venv/
@@ -23,3 +25,9 @@ Thumbs.db
 # OneDrive junk
 ~$*
 desktop.ini
+
+# Ignore raw datasets (correct location!)
+data/raw/
+
+# Keep processed data (safe to commit)
+!data/processed/
