@@ -1,4 +1,6 @@
+# -------------------------
 # Python
+# -------------------------
 __pycache__/
 *.pyc
 *.pyo
@@ -12,22 +14,34 @@ __pycache__/
 venv/
 env/
 
+# -------------------------
 # Jupyter
+# -------------------------
 .ipynb_checkpoints/
 
+# -------------------------
 # VSCode
+# -------------------------
 .vscode/
 
-# OS
+# -------------------------
+# OS junk
+# -------------------------
 .DS_Store
 Thumbs.db
-
-# OneDrive junk
-~$*
 desktop.ini
+~$*
 
-# Ignore raw datasets (correct location!)
+# -------------------------
+# Project-specific ignores
+# -------------------------
+
+# Ignore raw datasets
 data/raw/
 
-# Keep processed data (safe to commit)
-!data/processed/
+# Ignore all processed data by default
+data/processed/*
+
+# Keep these inside processed/
+!data/processed/.gitkeep
+!data/processed/sample_jobs_processed.csv
